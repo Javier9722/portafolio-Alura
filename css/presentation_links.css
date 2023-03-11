@@ -1,0 +1,74 @@
+.presentation>div>.presentation__links>li {
+  position: relative;
+}
+
+.presentation>div>.presentation__links>li:nth-child(1):hover::after {
+  content: 'GitHub';
+  font-size: 1.5rem;
+  position: absolute;
+  left: -10px;
+  bottom: -25px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.presentation>div>.presentation__links>li:nth-child(2) {
+  color: #0961b8;
+}
+
+.presentation>div>.presentation__links>li:nth-child(2):hover::after {
+  content: 'LinkedIn';
+  font-size: 1.5rem;
+  position: absolute;
+  left: -15px;
+  bottom: -25px;
+  background-color: #0961b8;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.presentation>div>.presentation__links>li:nth-child(3) {
+  color: white;
+  padding: 2px 4px;
+  border-radius: 8px;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.presentation>div>.presentation__links>li:nth-child(3):hover::after {
+  content: 'Instagram';
+  font-size: 1.5rem;
+  position: absolute;
+  left: -16px;
+  bottom: -25px;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.presentation>div>.presentation__links>li:nth-child(4) {
+  color: #6f6797;
+}
+
+.presentation>div>.presentation__links>li:nth-child(4):hover::after {
+  content: 'CV';
+  font-size: 1.5rem;
+  position: absolute;
+  left: -2px;
+  bottom: -25px;
+  background-color: #6f6797;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}

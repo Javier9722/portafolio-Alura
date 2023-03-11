@@ -1,0 +1,24 @@
+.formation {
+  padding: 40px;
+  display: grid;
+  place-items: 20px;
+  background-color: #eaf2fd;
+}
+
+.formation>h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.formation>ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.formation>ul>li>div {
+  height: 120px;
+}
+
+.formation>ul>li>div>img {
+  width: 150px;
+}
