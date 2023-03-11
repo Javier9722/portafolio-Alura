@@ -1,0 +1,75 @@
+.experience {
+  display: grid;
+  gap: 20px;
+  padding: 40px;
+}
+
+.experience>h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.experience>ul {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.experience>ul>li>a>img {
+  width: 100%;
+  max-width: 620px;
+  border-radius: 12px;
+}
+
+.experience>ul>li>div {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.experience>ul>li>div>h1 {
+  font-size: 2rem;
+}
+
+.experience>ul>li>div>p {
+  font-size: 1.2rem;
+}
+
+.experience>ul>li>div>.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.experience>ul>li>div>.buttons>a {
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.experience>ul>li>div>.buttons>a:nth-child(1) {
+  color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+}
+
+.experience>ul>li>div>.buttons>a:nth-child(2) {
+  color: white;
+  background-color: #2a7ae4;
+}
+
+@media (min-width:620px) {
+  .experience>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .experience>ul>li:nth-child(even)>a {
+    order: 2;
+  }
+
+  .experience>ul>li:nth-child(even)>div {
+    order: 1;
+  }
+}
