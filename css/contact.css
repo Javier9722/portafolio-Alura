@@ -10,6 +10,7 @@
 .contact>div {
   display: grid;
   gap: 10px;
+  position: relative;
 }
 
 .contact>div>h1 {
@@ -48,6 +49,15 @@ textarea {
   border-radius: 4px;
   padding: 8px 12px;
 }
+
+.contact>div>.error {
+  position: absolute;
+  bottom: -30px;
+  color: red;
+  font-size: 1.5rem;
+  font-style: oblique;
+}
+
 
 @media (min-width: 768px) {
   .contact {

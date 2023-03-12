@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link rel="shortcut icon" href="./img/alura.ico">
   <title>Portafolio ONE</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/general.css">
@@ -19,6 +20,7 @@
   <link rel="stylesheet" href="./css/formation.css">
   <link rel="stylesheet" href="./css/experience.css">
   <link rel="stylesheet" href="./css/contact.css">
+  <link href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css " rel="stylesheet">
 </head>
 
 <body>
@@ -242,18 +244,20 @@
       <span>¿Quieres contactarme?</span>
       <span>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</span>
       <form id="formContact">
-        <input type="text" placeholder="name">
-        <input type="text" placeholder="email">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Asunto">
-        <textarea placeholder="Mensaje"></textarea>
+        <input type="text" placeholder="name" id="name">
+        <input type="text" placeholder="Email" id="email">
+        <input type="text" placeholder="Asunto" id="asunto">
+        <textarea placeholder="Mensaje" id="mensaje"></textarea>
         <button type="submit">Enviar Mensaje</button>
       </form>
+      <span class="error"></span>
     </div>
   </section>
   <footer>
     <p style="text-align: center; padding: 40px 0; font-size: 2rem;">Desarrollado por Javier 2023</p>
   </footer>
+  <script src="./js/contact.js" type="module"></script>
+  <script src="./js/test.js"></script>
 </body>
 
 </html>
